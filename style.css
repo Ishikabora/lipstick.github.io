@@ -1,0 +1,47 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+
+}
+
+.btn-success
+{
+    font-size: 27px;
+}
+
+.heading
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-color: rgb(255, 0, 81);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 2px black;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 100px rgb(70, 50, 0);}
+    to{box-shadow: 1px 1px 100px rgb(150, 91, 2);}
+}
+
+.header
+{
+    background-color: rgb(255, 113, 170);
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
